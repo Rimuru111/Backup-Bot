@@ -96,7 +96,7 @@ break
 //// DIBAWAH YANG TXT
 case 'tes': // 'tes' boleh kalian ganti terserah mau apa aja
 wew = fs.readFileSync('./namafile/namafile') // wew nya bisa diganti namanya terserah // namafile nya ganti ke nama folder fotonya, kalo nama file yg pertama itu file txt di taro folder mana nah terus namafilenya ganti ke nama folder yg ada file txt, nah namafile yg kedua itu nama dari file txt
-client.sendMessage(from, wew, document, {mimetype: 'application/txt', filename: `blabla.txt`, quoted:mek}) // jangan lupa kasih teks image biar work // filenamenya yg blabla.txt ganti terserah kalian
+client.sendMessage(from, wew, document, {mimetype: 'application/txt', filename: `blabla.txt`, quoted:mek}) // jangan lupa kasih teks document biar work // filenamenya yg blabla.txt ganti terserah kalian
 // client nya sesuain sama bot kalian y
 break
 //// YANG LAINYA SAMA KAYAK TXT DIGANTI TXTNYA AJA
